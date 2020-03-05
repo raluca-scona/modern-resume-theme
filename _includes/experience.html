@@ -1,8 +1,8 @@
 <div class="container experience-container">
-  <h3>{{ site.more_title | default: "Timeline" }}</h3>
+  <h3>{{ site.experience_title | default: "Timeline" }}</h3>
   <div class="row clearfix">
     <div class="col-md-12">
-      {{ site.more_content | strip | markdownify }}
+      {{ site.experience_content | strip | markdownify }}
     </div>
   </div>
 </div>

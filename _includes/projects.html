@@ -1,8 +1,8 @@
 <div class="container projects-container">
-  <h3>{{ site.more_title | default: "Publications" }}</h3>
+  <h3>{{ site.projects_title | default: "Publications" }}</h3>
   <div class="row clearfix">
     <div class="col-md-12">
-      {{ site.more_content | strip | markdownify }}
+      {{ site.projects_content | strip | markdownify }}
     </div>
   </div>
 </div>
