@@ -13,7 +13,7 @@
   font-weight:500;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   .header-contianer div{
     text-align: center;
   }
@@ -46,7 +46,7 @@
   margin-top: 30px;
 }
 
-@media only screen and (max-width : 400px) {
+@media only screen and (max-width : 992px) {
   .into-text-1 {
     margin-top: 20px;
   }
@@ -75,7 +75,7 @@
       }
     }
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 768px) {
       text-align: center!important;
 
       p {
@@ -119,14 +119,14 @@
 }
 
 .layout-right {
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column-reverse;
   }
 }
 
 .layout-top-right {
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
   }
