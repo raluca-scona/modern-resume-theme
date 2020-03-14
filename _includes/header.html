@@ -106,12 +106,12 @@
         {% endfor %}
       </ul>
 
-       {%- if site.building -%}
+      {%- if site.institute -%}
         <p>
-          {{ site.building | escape }}
+          {{ site.institute | escape }}
         </p>
       {%- endif -%}
-      {%- if site.university -%}
+       {%- if site.university -%}
         <p>
           {{ site.university | escape }}
         </p>
@@ -119,6 +119,11 @@
       {%- if site.country -%}
         <p>
           {{ site.country | escape }}
+        </p>
+      {%- endif -%}
+      {%- if site.office -%}
+        <p>
+          Office: {{ site.office | escape }}
         </p>
       {%- endif -%}
       {%- if site.email -%}
