@@ -128,7 +128,7 @@
       {%- endif -%}
       {%- if site.email -%}
         <p>
-          Email: {{ site.email | escape }}
+          Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </p>
       {%- endif -%}
       {%- if site.website -%}
