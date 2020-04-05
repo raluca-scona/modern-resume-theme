@@ -111,6 +111,11 @@
           {{ site.institute | escape }}
         </p>
       {%- endif -%}
+      {%- if site.office -%}
+        <p>
+          {{ site.office | escape }}
+        </p>
+      {%- endif -%}
        {%- if site.university -%}
         <p>
           {{ site.university | escape }}
@@ -119,11 +124,6 @@
       {%- if site.country -%}
         <p>
           {{ site.country | escape }}
-        </p>
-      {%- endif -%}
-      {%- if site.office -%}
-        <p>
-          Office: {{ site.office | escape }}
         </p>
       {%- endif -%}
       {%- if site.email -%}
