@@ -73,7 +73,6 @@ table {
   border-collapse: collapse;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1.6rem;
-  margin: 0.75rem 0;
   table-layout: fixed;
   width: 100%; }
 
@@ -83,8 +82,7 @@ th {
   text-align: left; }
 
 td {
-  border-collapse: collapse;
-  padding: 0.75rem 0; }
+  border-collapse: collapse; }
 
 tr,
 td,
