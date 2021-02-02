@@ -157,8 +157,7 @@ body {
   text-align: center; }
 
 .container {
-  padding-left: 100px;
-  padding-right: 100px;
+  max-width:997px;
   margin-top:30px;
 
   @media print {
